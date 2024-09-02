@@ -159,7 +159,7 @@ namespace LiveSplit.UI.Components
             }
             CategoryNameLabel.Y = 0;
             CategoryNameLabel.HorizontalAlignment = StringAlignment.Near;
-            CategoryNameLabel.VerticalAlignment = string.IsNullOrEmpty(GameNameLabel.Text) ? StringAlignment.Center : StringAlignment.Far;
+            CategoryNameLabel.VerticalAlignment = StringAlignment.Far;
             CategoryNameLabel.Font = TitleFont;
             CategoryNameLabel.Brush = new SolidBrush(Settings.OverrideTitleColor ? Settings.TitleColor : state.LayoutSettings.TextColor);
             CategoryNameLabel.HasShadow = state.LayoutSettings.DropShadows;
